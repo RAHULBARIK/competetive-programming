@@ -14,7 +14,8 @@ int main() {
         q.pop();
     }
 
-
+    cout<<q.back()<<endl;
+    //* To view the element that is on the back of the queue
 
 
     return 0;

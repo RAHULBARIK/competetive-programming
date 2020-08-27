@@ -40,5 +40,6 @@ int main(){
     for(int x:v){
         cout<<x<<endl;
     }
+    //* Sorting vector in reverse order sort(A.begin(),A.end(),greater<int>())
     return 0;
 }
