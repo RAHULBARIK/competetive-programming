@@ -1,6 +1,14 @@
-#include <iostream>
-#include <algorithm>
+#include <fstream>
+#include <bits/stdc++.h>
+#include <cstring>
+#define rep(i,a,b) for(ll i=a;i<b;i++)
+#define ll long long 
+#define pb push_back
+#define INT_BITS 32
+#define M 1000000007
+const int N=10000;
 using namespace std;
+
 
 int main(){
     int arr[] = {20,30,40,40,40,40,40,50,100,1100};
@@ -8,6 +16,7 @@ int main(){
     //Search in a sorted array
     int key;
     cin>>key;
+    
     bool present = binary_search(arr,arr+n,key);
     if (present){
         cout<< "Present ";
